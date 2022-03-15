@@ -1,9 +1,10 @@
 module.exports = {
   pwa: {
-    // workboxPluginMode: "InjectManifest",
-        workboxOptions: {
-            skipWaiting: true,
-            // swSrc: "./src/service-worker.js"
-        }
-    }
-}
+    name: "testagain",
+    themeColor: "#4DBA87",
+    msTileColor: "#000000",
+    appleMobileWebAppCapable: "yes",
+    appleMobileWebAppStatusBarStyle: "black",
+    workboxPluginMode: "GenerateSW",
+  },
+};
